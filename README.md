@@ -8,7 +8,7 @@ This project integrates **image classification** and **object detection** into a
      - **Time of Day**: “Day” vs. “Night”
 
 2. **YOLO-based Object Detection**  
-   - Multiple YOLO models (e.g., YOLOv8, YOLOv10x, YOLOv11n) are individually trained on different environments (Sunny Day, Sunny Night, Rainny Day, Rainny Night).
+   - Multiple YOLOv8x models are individually trained on different environments (Sunny Day, Sunny Night, Rainny Day, Rainny Night).
    - An **ensembling** strategy combines the output of multiple YOLO models for higher accuracy.
    - A **unified YAML configuration** merges all datasets, enabling a single YOLO model to handle diverse conditions in one go.
 
